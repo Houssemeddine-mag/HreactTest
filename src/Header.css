@@ -1,0 +1,16 @@
+#head {
+  display: flex;
+  align-items: center;
+  background: #ffc165;
+}
+#title {
+  margin-right: 600px;
+  margin-left: 200px;
+}
+.header {
+  margin-left: 300px;
+}
+a {
+  margin: 40px;
+  color: black;
+}
