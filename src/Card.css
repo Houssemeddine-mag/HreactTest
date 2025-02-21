@@ -20,17 +20,17 @@
   margin: 0px;
 }
 
-.Button{
+.Button {
   padding: 20px;
   width: 200px;
   background: rgb(255, 205, 96);
   cursor: pointer;
   font-size: larger;
   font-family: Arial, Helvetica, sans-serif;
-  border-radius: 50px
+  border-radius: 50px;
 }
 
-.Button:hover{
+.Button:hover {
   background: rgb(0, 0, 0);
   color: rgb(255, 174, 0);
 }
