@@ -1,16 +1,18 @@
 import Header from "./Header";
 import Footer from "./footer";
 import Card from "./card";
+import Blank from "./blank";
 
 function App() {
   return (
     <div>
       <Header />
-      <Card imagename="image 1" 
-      />
+      <Blank/>
+      <Card imagename="image 1"/>
       <Card imagename="image 2"/>
       <Card imagename="image 3"/>
       <Card imagename="image 4"/>
+      <Card imagename="image 5"/>
       <Footer />
     </div>
   );
