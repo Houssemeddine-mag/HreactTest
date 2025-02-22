@@ -6,10 +6,10 @@ function App() {
   return (
     <div>
       <Header />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
+      <Card imagename="image 1"/>
+      <Card imagename="image 2"/>
+      <Card imagename="image 3"/>
+      <Card imagename="image 4"/>
       <Footer />
     </div>
   );
