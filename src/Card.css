@@ -21,8 +21,9 @@
 }
 
 .Button {
-  padding: 20px;
-  width: 200px;
+  height: 40px;
+  width: 120px;
+  margin: 3px;
   background: rgb(255, 205, 96);
   cursor: pointer;
   font-size: larger;
@@ -33,4 +34,11 @@
 .Button:hover {
   background: rgb(0, 0, 0);
   color: rgb(255, 174, 0);
+}
+.divbutton {
+  display: flex;
+  align-items: center;
+}
+#des{
+  width: 245px;
 }

@@ -1,9 +1,9 @@
-import "./Card.css"
+import "./Card.css";
 
-export default function Button() {
+export default function Button(props) {
   return (
     <div>
-      <button className="Button">Click me</button>
+      <button className="Button">{props.name}</button>
     </div>
   );
 }

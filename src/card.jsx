@@ -12,7 +12,11 @@ export default function card(props) {
         aspernatur? Harum beatae eaque repellendus quos voluptatibus quidem nemo
         numquam fugiat eos illo!
       </p>
-      <Button name="like"/>
+      <div className="divbutton">
+      <Button name="Like"/>
+      <Button name="Subscribe"/>
+      </div>
+      <button id="des" className="Button">Description</button>
     </div>
   );
 }
