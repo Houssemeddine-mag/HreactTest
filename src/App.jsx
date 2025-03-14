@@ -1,5 +1,4 @@
 import Header from "./Header";
-import Footer from "./footer";
 import Card from "./card";
 import Blank from "./blank";
 
@@ -13,7 +12,6 @@ function App() {
       <Card imagename="image 3"/>
       <Card imagename="image 4"/>
       <Card imagename="image 5"/>
-      <Footer />
     </div>
   );
 }
